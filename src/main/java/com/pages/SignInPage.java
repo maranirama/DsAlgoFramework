@@ -45,7 +45,8 @@ public class SignInPage extends Base_page
 		String AlertMessage =  alrtmsg.getText();
 		System.out.println(AlertMessage);
 	 }
-	 public void signOut() {
+	 public void signOut() 
+	 {
 		 signout.click();
 	 }
 

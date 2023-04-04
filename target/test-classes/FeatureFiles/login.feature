@@ -16,10 +16,10 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@tag
+@signIn
 Feature: SignIn Page
 
-  @tag1
+  @positive
   Scenario Outline: user is redirected to sign in page
     Given user clicks on signIn page
     And user enters valid "<username>" and "<password>"
@@ -29,4 +29,4 @@ Feature: SignIn Page
     Examples: 
       | username           | password    |
       | srs103@yopmail.com | numpyninja1 |
-      | swapna1@gmail.com  | kamin123    |
+      

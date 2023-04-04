@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin={"pretty","html:taget/rama.html"},monochrome=true,
-features={"C:\\Rama\\workspace\\DsAlgo_FrameWork\\src\\test\\resources\\FeatureFiles\\Portal.feature"},
+features={"C:\\Rama\\workspace\\DsAlgo_FrameWork\\src\\test\\resources\\FeatureFiles\\DataStructure.feature"},
 glue={"stepDefinition"})
 
 

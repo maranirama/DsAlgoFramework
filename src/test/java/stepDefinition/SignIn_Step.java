@@ -28,7 +28,7 @@ public class SignIn_Step
 	@Given("user enters valid {string} and {string}")
 	public void user_enters_valid_and(String uname, String pword) 
 	{
-		 si.signin();
+		si.signin();
 	   si.username(uname);
 	   si.password(pword);
 	}
