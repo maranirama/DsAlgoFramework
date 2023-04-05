@@ -11,10 +11,10 @@ import com.qa.factory.DriverFactory;
 
 import dev.failsafe.internal.util.Assert;
 
-public class StartPage extends Base_page{
+public class Start_Page extends Base_Page{
 	
 	//public WebDriver driver;
-	public StartPage(WebDriver driver)
+	public Start_Page(WebDriver driver)
 	{
 		super(driver);
 	}

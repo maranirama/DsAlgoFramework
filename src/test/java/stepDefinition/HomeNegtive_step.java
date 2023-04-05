@@ -1,6 +1,7 @@
 package stepDefinition;
 
 import com.pages.HomePageNegative;
+import com.pages.Home_PageNegative;
 import com.qa.factory.Launch_Browser;
 
 import io.cucumber.java.en.Given;
@@ -8,7 +9,7 @@ import io.cucumber.java.en.Then;
 
 public class HomeNegtive_step {
 	
-	HomePageNegative hpn=new HomePageNegative(Launch_Browser.driver);
+	Home_PageNegative hpn=new Home_PageNegative(Launch_Browser.driver);
 	
 	@Given("user clicks Data Structure get start button without signingIn")
 	public void user_clicks_data_structure_get_start_button_without_signing_in() throws InterruptedException {

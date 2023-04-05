@@ -4,11 +4,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class SignInPage extends Base_page
+public class SignIn_Page extends Base_Page
 
 {
 
-	public SignInPage(WebDriver driver)
+	public SignIn_Page(WebDriver driver)
 	{
 		super(driver);
 		

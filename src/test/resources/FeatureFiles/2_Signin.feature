@@ -16,24 +16,16 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@DataStructure
-Feature: DataStructure Module
-
-  Background: user is launcing home page
-    Given user click on signin button
-    When user enter "Numpysdet84" and "sdet84batch"
-    And user clicks on loginbutton
-    
-   
+@signIn
+Feature: SignIn Page
 
   @positive
-  Scenario: user navigates to DataStructure Module
-    Given user is on DataStructure Module
-    When user clicks DataStructure getstarted button
-    Then user launches DataStructure page	
-		When user clicks on time complexity link
-    And  user clicks on Try here button
-    Then user types python code in text box
-    And user clicks on Run button
-    
-    
+  Scenario Outline: user is redirected to sign in page
+    Given user clicks on signIn page
+    And user enters valid "<username>" and "<password>"
+    When user clicks on login button
+    Then user navigated to home page
+
+    Examples: 
+      | username           | password    |
+      | srs103@yopmail.com | numpyninja1 |

@@ -4,9 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class DatastructurePage extends Base_page {
+public class Datastructure_Page extends Base_Page {
 	
-	public DatastructurePage(WebDriver driver) 
+	public Datastructure_Page(WebDriver driver) 
 	{
 		super(driver);
 		

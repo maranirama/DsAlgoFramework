@@ -8,7 +8,8 @@
   import org.junit.Assert; import org.openqa.selenium.WebDriver;
   
   import com.pages.RegisterPage;
-  import com.qa.factory.DriverFactory; 
+import com.pages.Register_Page;
+import com.qa.factory.DriverFactory; 
   import com.qa.factory.Launch_Browser; 
   import com.qa.util.ConfigReader;
   
@@ -20,7 +21,7 @@
   {
   
   WebDriver driver =Launch_Browser.launch_browser();
-  RegisterPage r=new RegisterPage(driver);
+  Register_Page r=new Register_Page(driver);
   
   @Given("user clicks cn Register link for invalid login")
   public void user_clicks_cn_register_link_for_invalid_login() throws InterruptedException 

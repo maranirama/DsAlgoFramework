@@ -3,6 +3,7 @@ package stepDefinition;
 import org.openqa.selenium.WebDriver;
 
 import com.pages.SignInPage;
+import com.pages.SignIn_Page;
 import com.qa.factory.Launch_Browser;
 import com.qa.util.ConfigReader;
 
@@ -14,7 +15,7 @@ public class SignIn_Step
 
 {
 	WebDriver driver  =Launch_Browser.launch_browser();
-	SignInPage si=new SignInPage(Launch_Browser.driver);
+	SignIn_Page si=new SignIn_Page(Launch_Browser.driver);
 
 	
 	@Given("user clicks on signIn page")
@@ -44,7 +45,7 @@ public class SignIn_Step
 	
 	{
 	   si.alertmessage();
-	   si.signOut();
+	  // si.signOut();
 	}
 
 

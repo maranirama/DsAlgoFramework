@@ -54,3 +54,4 @@ Feature: sign up page
     Examples: 
       | UserName                   | Password   | ConfirmPassword |
       | srs4_3@yopmail.com | numpynija1 | numpynija1      |
+

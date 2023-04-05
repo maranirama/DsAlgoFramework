@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Array_Page extends Base_page {
+public class Array_Page extends Base_Page {
 
 	public Array_Page(WebDriver driver) 
 	{

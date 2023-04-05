@@ -4,9 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class HomePageNegative extends Base_page{
+public class Home_PageNegative extends Base_Page{
 
-	public HomePageNegative(WebDriver driver) 
+	public Home_PageNegative(WebDriver driver) 
 	{
 		super(driver);
 		
